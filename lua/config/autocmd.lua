@@ -12,7 +12,7 @@ vim.api.nvim_create_autocmd("BufWritePre", {
 
 -- remove semicolon in js/tsx
 -- before buffer has been written
-vim.api.nvim_create_autocmd("BufWritePre", {
+vim.api.nvim_create_autocmd("BufWritePost", {
 	group = semicolon_group,
 	pattern = "*.{js,jsx}",
 	command = [[%s/;$//e]],
