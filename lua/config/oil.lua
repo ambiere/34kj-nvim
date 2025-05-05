@@ -1,0 +1,11 @@
+-- require("oil").setup({
+-- 	prompt = function(msg, callback)
+-- 		vim.ui.input({
+-- 			prompt = msg .. " (y/n): ",
+-- 		}, function(value)
+-- 			local confirmed = value and value:lower() == "y"
+-- 			vim.print("confirmed: " .. confirmed)
+-- 			callback(confirmed)
+-- 		end)
+-- 	end,
+-- })
