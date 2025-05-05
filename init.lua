@@ -1,0 +1,7 @@
+require("config.lazy")
+require("config.options")
+require("config.autocmd")
+require("config.keymaps")
+require("config.highlights")
+require("config.lsp")
+-- require("config.oil")
